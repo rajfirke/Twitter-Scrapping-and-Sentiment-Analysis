@@ -24,7 +24,7 @@ scrapper = Nitter()
 sid = SentimentIntensityAnalyzer()
 
 """# Scrapping"""
-
+# Change the mode as per your convenience 
 tweets = scrapper.get_tweets('imVkohli', mode= 'user', number = 1000)
 
 tweets
